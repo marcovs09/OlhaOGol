@@ -918,4 +918,49 @@ body {
   }
   
   .game-players {
-    justify
+    justify-content: center;
+  }
+  
+  .selection-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .players-grid {
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  }
+  
+  .player-card {
+    padding: 8px;
+  }
+  
+  .player-card-name {
+    font-size: 0.7rem;
+  }
+  
+  .team-grid {
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  }
+  
+  .result-score {
+    font-size: 1.2rem;
+  }
+  
+  .result-score-value {
+    font-size: 2rem;
+  }
+  
+  .result-stats {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  
+  .vs {
+    display: none;
+  }
+  
+  .btn-spin {
+    font-size: 1.2rem;
+    padding: 15px 25px;
+  }
+}
